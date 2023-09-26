@@ -10,18 +10,20 @@
     font-size: 10px;
 }
 
-body{
-    position: relative;
-}
-
 *{
     font-family: 'HG', sans-serif !important;
     font-size: 18px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    position: relative;
+    margin: 0 auto;
 }
 
 main{
     background-color: var(--white);
-    margin-top: 5rem;
     height: 1000px;
 }
 
@@ -177,4 +179,30 @@ button:hover{
 
 button:active{
     scale: 0.98;
+}
+
+@media (max-width: 375px) {
+    .content{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content__result{
+        height: 40%;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .content__summary{
+        height: 60%;
+    }
+
+    button{
+        margin-top: 2rem;
+        line-height: 3.3;
+    }
+
+    .content__result-circle{
+        scale: 0.8;
+    }
 }
