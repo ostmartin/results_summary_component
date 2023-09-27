@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Solution on Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/adaptive-page-of-component-using-html-css-and-javascript-CIBNH-L-lE))
 - Live Site URL: [Deployed via Vercel](https://results-summary-component-indol-mu.vercel.app/)
 
 ## My process
